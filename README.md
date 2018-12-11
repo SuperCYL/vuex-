@@ -3,6 +3,7 @@
 
 ## store
 `store` 目录下的 `modules` 放置单独的各个模块。
+> 除此之外还可以使用 `param` 传参的方式，`Demo` 中 `modules` 的 `c.js` 为传参方式。 
 
 ```JS
 // a.js

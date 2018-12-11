@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import countA from './modules/a'
 import countB from './modules/b'
+import countC from './modules/c'
 
 Vue.use(Vuex)
 
@@ -9,6 +10,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   modules: {
     countA,
-    countB
+    countB,
+    countC
   }
 })
