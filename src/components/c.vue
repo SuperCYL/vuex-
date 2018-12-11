@@ -2,8 +2,8 @@
   <div class="c">
     page c  {{$store.state.countC.countC}}
 
-    <button type="button" name="button" @click="add(number)">增加</button>
-    <button type="button" name="button" @click="reduce(number)">删减</button>
+    <button type="button" name="button" @click="add(number)">增加{{number}}</button>
+    <button type="button" name="button" @click="reduce(number)">删减{{number}}</button>
   </div>
 </template>
 
